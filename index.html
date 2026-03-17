@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeShift Nomadic Balance</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+        <div class="container">
+            <h1>Nomadic Balance: Wellness for Digital Nomads</h1>
+            <p>Manage burnout & nutrition while traveling. Book a free 15-minute consultation!</p>
+            <a href="#contact" class="cta-button">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Quick Check Widget -->
+
+    <section class="quick-check">
+        <div class="container">
+            <h2>Quick Burnout Check</h2>
+            <form id="burnoutForm">
+
+                <!-- Question 1 -->
+
+                <label>1. How often do you feel exhausted while working remotely?</label>
+                <select id="q1">
+                    <option value="low">Rarely</option>
+                    <option value="medium">Sometimes</option>
+                    <option value="high">Often</option>
+                </select>
+
+                <!-- Question 2 -->
+
+                <label>2. How balanced is your diet while travelling?</label>
+                <select id="q2">
+                    <option value="low">Unbalanced</option>
+                    <option value="medium">Moderate</option>
+                    <option value="high">Balanced</option>
+                </select>
+
+                <!-- Question 3 -->
+
+                <label>3. How stressed do you feel managing work-life abroad?</label>
+                <select id="q3">
+                    <option value="low">Low</option>
+                    <option value="medium">Moderate</option>
+                    <option value="high">High</option>
+                </select>
+
+                <button type="button" id="checkButton">Get Recommendation</button>
+
+            </form>
+            <div id="result"></div>
+        </div>
+    </section>
+
+    <!-- Program Features -->
+
+    <section class="features">
+        <div class="container">
+            <h2>Program Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <img src="assets/images/circadian.jpg" alt="Circadian Rhythm Alignment">
+                    <h3>Circadian Rhythm Alignment</h3>
+                    <p>Optimize your sleep cycles and energy while crossing time zones.</p>
+                </div>
+
+                <div class="feature-item">
+                    <img src="assets/images/nutrition.jpg" alt="Cross-Border Nutrition">
+                    <h3>Cross-Border Nutrition</h3>
+                    <p>Eat well anywhere with travel-friendly nutrition strategies.</p>
+                </div>
+
+                <div class="feature-item">
+                    <img src="assets/images/resilience.jpg" alt="Mental Resilience Coaching">
+                    <h3>Mental Resilience Coaching</h3>
+                    <p>Build stress management skills for high-performing remote work.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Book your Free Consultation</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <input type="text" id="location" placeholder="Current Location" required>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="formMessage"></div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
