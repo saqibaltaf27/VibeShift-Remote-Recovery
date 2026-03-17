@@ -90,4 +90,4 @@ It will open this url in Web: http://127.0.0.1:8080
 ## Deployment
 
 1. Github (https://github.com/saqibaltaf27/VibeShift-Remote-Recovery.git)
-2. Vercel ()
+2. Vercel (https://vibe-shift-remote-recovery.vercel.app)
