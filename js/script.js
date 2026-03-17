@@ -37,7 +37,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
         message = 'This email is invalid! Please enter a valid email.';
     } else {
         message = 'Thank You! Your consultation request has been submitted. Someone will reach you out shortly.';
-        document.getElementById('contactForm').requestFullscreen();
+        document.getElementById('contactForm');
     }
 
     document.getElementById('formMessage').innerText = message;
